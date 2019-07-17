@@ -1,4 +1,1 @@
-.ipython/
-.ssh
-.local
-.setup
+# ignore large file sizes
