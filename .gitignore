@@ -1,1 +1,7 @@
 # ignore large file sizes
+.ssh
+.setup
+.local
+.jupyter
+.ipython
+.cache
