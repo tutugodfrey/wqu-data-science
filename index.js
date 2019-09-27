@@ -421,8 +421,9 @@ for (i of video_objs) {
     if (key === 'href') {
       const anchor = document.createElement('a');
       anchor.innerHTML = i[key];
-      anchor.href = i['href']
-      cell.appendChild(anchor)
+      anchor.href = i['href'];
+      anchor.target = '_blank';
+      cell.appendChild(anchor);
       anchor.style.color = 'white';
     } else {
       cell.innerHTML = i[key]
